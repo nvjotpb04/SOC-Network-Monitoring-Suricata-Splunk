@@ -1,1 +1,3 @@
-
+index=suricata event_type=alert
+| stats count by proto
+| sort -count
