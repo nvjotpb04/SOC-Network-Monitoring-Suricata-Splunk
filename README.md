@@ -84,3 +84,55 @@ The lab follows a centralized security monitoring workflow:
               └────────────┼────────────┘
                            ▼
                     Analyst Findings
+
+---
+
+# 🚀 Quick Navigation
+
+| Section | Description |
+|---|---|
+| [🏗️ Architecture](architecture/) | SOC lab architecture and monitoring flow |
+| [📊 Dashboard](dashboards/) | Splunk SOC dashboard and monitoring panels |
+| [🔎 Detection Analysis](detections/) | Detection and alert analysis |
+| [🕵️ Investigations](investigation/) | SOC investigation cases and workflows |
+| [🔧 SPL Queries](spl-queries/) | Splunk SPL queries used in the project |
+| [📚 Documentation](documentation/) | Project documentation and monitoring workflow |
+
+---
+
+# 📁 Repository Structure
+
+```text
+SOC-Network-Monitoring-Suricata-Splunk/
+│
+├── architecture/
+│   └── soc-architecture.png
+│
+├── dashboards/
+│   ├── soc-dashboard.png
+│   └── README.md
+│
+├── detections/
+│   └── README.md
+│
+├── investigation/
+│   ├── README.md
+│   ├── suricata-alert-investigation.md
+│   ├── repeated-alerts-investigation.md
+│   └── http-activity-investigation.md
+│
+├── spl-queries/
+│   ├── README.md
+│   ├── alert-signatures.spl
+│   ├── destination-ports.spl
+│   ├── source-ips.spl
+│   ├── destination-ips.spl
+│   ├── severity-distribution.spl
+│   ├── alerts-over-time.spl
+│   ├── network-protocols.spl
+│   └── http-methods.spl
+│
+├── documentation/
+│   └── README.md
+│
+└── README.md
