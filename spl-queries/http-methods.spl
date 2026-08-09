@@ -1,1 +1,2 @@
-
+index=suricata event_type=http
+| stats count by http.http_method
