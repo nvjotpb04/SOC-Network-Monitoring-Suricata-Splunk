@@ -1,1 +1,2 @@
-
+index=suricata event_type=alert
+| stats count as "Total Alerts"
