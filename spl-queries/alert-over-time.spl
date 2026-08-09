@@ -1,3 +1,2 @@
 index=suricata event_type=alert
-| stats count by alert.severity
-| sort alert.severity
+| timechart count
