@@ -1,1 +1,3 @@
-
+index=suricata event_type=alert
+| stats count by dest_ip
+| sort -count
